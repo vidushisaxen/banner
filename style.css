@@ -1,0 +1,77 @@
+#main{
+    display: flex;
+    position: relative;
+}
+.bg{
+    height: 400px;
+    width: 650px;
+    border: 5px solid orange;
+    border-radius: 5px;
+    position: absolute;
+    left: -10px;
+    top: -5px;
+}
+.abp{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 2px solid black;
+    position: absolute;
+    top: 30px;
+    left: 20px;
+}
+.deep{
+    color: white;
+    position: absolute;
+    top: 20px;
+    left: 250px;
+    font-size: 50px;
+}
+.yr{
+    color: white;
+    position: absolute;
+    top: 80px;
+    left: 270px;
+    font-size: 50px;
+}
+.ady{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 2px solid black;
+    position: absolute;
+    top: 30px;
+    left: 470px;
+}
+.deepotsav{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: -80px;
+    left: 200px;
+    color: white;
+}
+.countdown{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+
+}
+.day,.hour,.minute,.second{
+   font-size: 3rem;
+   padding: 10px;
+   border: 3px solid white;
+   border-radius: 50%;
+   padding: 10px;
+  
+}
+.v{
+    color: white;
+    position: absolute;
+    top: -40px;
+    left: 200px;
+}
+
